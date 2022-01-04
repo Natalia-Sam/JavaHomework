@@ -29,7 +29,7 @@ public class Order {
 
         switch (additionalIngredient) {
             case 0 -> System.out.println("Стоимость вашего бургера " + burger.price + " грн.");
-            case 1 -> System.out.println("Стоимость вашего бургера составит " + burger.price + sauce.price + " грн.");
+            case 1 -> System.out.println(burger.price + sauce.price);
             case 2 -> System.out.println("Стоимость вашего бургера составит " + burger.price + cheese.price + " грн.");
             case 3 -> System.out.println("Стоимость вашего бургера составит " + burger.price + cutlet.price + " грн.");
             default -> System.out.println("Для рассчета стоимости выберите, пожалуйста, одну из опций");
