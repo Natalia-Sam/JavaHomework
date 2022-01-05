@@ -10,7 +10,8 @@ public class Main {
         // тогда вывести в консоль стоимость бургера с доп. ингредиентом(-ами)
 
         Burger burger = new Burger();
-        burger.BasicOrder();
+        burger.basicOrder();
         burger.askAgain();
+
     }
 }
